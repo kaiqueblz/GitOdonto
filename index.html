@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultório Odontológico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Dra. Jessica Verissimo</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>Sobre a Dra. Jessica Verissimo</h2>
+                <img src="jess.jpeg" alt="Dra. Jessica Verissimo" class="sobre-img">
+                <p>Com anos de experiência, a Dra. Jessica Verissimo é especialista em odontologia estética e saúde bucal. Nosso consultório oferece um ambiente acolhedor e tecnologia de ponta para garantir o melhor cuidado para você e sua família.</p>
+            </div>
+        </section>
+
+        <section id="servicos" class="servicos">
+            <div class="container">
+                <h2>Nossos Serviços</h2>
+                <ul class="servicos-lista">
+                    <li>
+                        <h3>Limpeza e Profilaxia</h3>
+                        <p>Manutenção da saúde bucal e prevenção de doenças.</p>
+                    </li>
+                    <li>
+                        <h3>Clareamento Dental</h3>
+                        <p>Realce do sorriso com técnicas seguras e eficazes.</p>
+                    </li>
+                    <li>
+                        <h3>Implantes Dentários</h3>
+                        <p>Soluções permanentes para dentes perdidos.</p>
+                    </li>
+                    <li>
+                        <h3>Ortodontia</h3>
+                        <p>Correção de alinhamento e mordida.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <form action="https://formspree.io/f/xwpkrngg" method="POST" class="contato-form">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Consultório Dra. Ana Costa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
